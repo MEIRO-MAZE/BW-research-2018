@@ -1,0 +1,34 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+distance                                                                          0x0160      16
+SHARP_Vo                                                                          0x0170       4
+SHARP_DIST                                                                        0x0174      16
+SHARP_TEMP                                                                        0x0184      10
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+COMMAND_FLAG_A                                                                    R4,R5        2
+COMMAND_FLAG_B                                                                    R6,R7        2
+flag                                                                              R9           1
+schedule                                                                          R8           1
+baud_mode                                                                         R10,R11      2
+ADC_Value                                                                         R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer1_compa_isr                                                                  0x00053      4
+timer1_compb_isr                                                                  0x00057      5
+read_adc                                                                          0x0005C     13
+main                                                                              0x00069     65
+YUME_SystemInit                                                                   0x000AA     55
+UART_Speed_Config                                                                 0x000E1     32
+Ping_Scan                                                                         0x00101    280
+Send_UART                                                                         0x00219      7
+SHARP_SCAN                                                                        0x00220     94

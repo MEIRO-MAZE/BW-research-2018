@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wall -g -nostartfiles -Map=BW_2.17_Main_Controller_Ver.1.0.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\BW_2.17_Main_Controller_Ver.1.0 -TC:\CooCox\CoIDE\configuration\ProgramData\BW_2.17_Main_Controller_Ver.1.0/arm-gcc-link.ld -g -LC:\Program Files (x86)\GNU Tools ARM Embedded\4.8 2014q1\arm-none-eabi\lib\armv7-m -lm">
+      <target file="BW_2.17_Main_Controller_Ver.1.0.elf" lastModified="16364b7c08b">
+         <source file="C:\Program Files (x86)\GNU Tools ARM Embedded\4.8 2014q1\arm-none-eabi\lib\armv7-m\libm.a" lastModified="1448e5e32f0"/>
+         <source file="..\obj\bw_articulated_manipulator.o" lastModified="16363c55d62"/>
+         <source file="..\obj\bw_global_var.o" lastModified="16363ec28c5"/>
+         <source file="..\obj\bw_dynamixel_ax_12a.o" lastModified="16363c564d2"/>
+         <source file="..\obj\BW_Phoenix_Code.o" lastModified="16363c56596"/>
+         <source file="..\obj\bw_usart_comm.o" lastModified="16363c56814"/>
+         <source file="..\obj\bw_mpu6050.o" lastModified="16363c569ea"/>
+         <source file="..\obj\bw_i2c_lcd.o" lastModified="16363c56b5e"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="16363c56cbe"/>
+         <source file="..\obj\bw_hexapod_cmd.o" lastModified="16363c57373"/>
+         <source file="..\obj\bw_rotary_switch.o" lastModified="16363c57533"/>
+         <source file="..\obj\bw_user_interface.o" lastModified="16363c57728"/>
+         <source file="..\obj\BW_Phoenix_Driver_AX12.o" lastModified="16363c577df"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16363c57899"/>
+         <source file="..\obj\main.o" lastModified="1636476f49d"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16363c57c02"/>
+         <source file="..\obj\bw_ping_receiver.o" lastModified="16363c57df4"/>
+         <source file="..\obj\bw_sound_activation.o" lastModified="16363c57f53"/>
+         <source file="..\obj\bw_extinguisher.o" lastModified="16363c58163"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="16363c58337"/>
+         <source file="..\obj\bw_bumper.o" lastModified="16363c584af"/>
+         <source file="..\obj\bw2017_algorithm.o" lastModified="16364b7b780"/>
+         <source file="..\obj\bw_mpu6050_receiver.o" lastModified="16363c59ec2"/>
+         <source file="..\obj\bw_bldc_fan.o" lastModified="16363c5a057"/>
+         <source file="..\obj\bw_infrared_proximity.o" lastModified="16363c5a213"/>
+         <source file="..\obj\bw_pid_controller.o" lastModified="16363c5a43e"/>
+         <source file="..\obj\bw_utilities.o" lastModified="16363c5a57e"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="16363c5a716"/>
+         <source file="..\obj\bw_dynamixel_xl_320.o" lastModified="16363c5a98a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16363c5aabf"/>
+         <source file="..\obj\syscalls.o" lastModified="16363c5ac5d"/>
+         <source file="..\obj\bw_UV-TRON.o" lastModified="16363c5ae37"/>
+         <source file="..\obj\bw_systick_delay.o" lastModified="16363c5af8d"/>
+         <source file="..\obj\bw_dynamixel_hexapod_cmd.o" lastModified="16363c5d078"/>
+         <source file="..\obj\bw_tpa_servo.o" lastModified="16363f71818"/>
+         <source file="..\obj\bw_interrupt_monitor.o" lastModified="16363c5d76b"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="16363c5d950"/>
+         <source file="..\obj\bw_lcd.o" lastModified="16363c5db0b"/>
+         <source file="..\obj\misc.o" lastModified="16363c5dc2c"/>
+         <source file="..\obj\bw_cmps11.o" lastModified="16363c5dfd6"/>
+         <source file="..\obj\bw_gy_85.o" lastModified="16363c5e142"/>
+         <source file="..\obj\bw_tcs3200_receiver.o" lastModified="16363c5e322"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="16363c5e538"/>
+         <source file="..\obj\bw_flame_sensor.o" lastModified="16363c5e685"/>
+      </target>
+   </processor>
+</history>

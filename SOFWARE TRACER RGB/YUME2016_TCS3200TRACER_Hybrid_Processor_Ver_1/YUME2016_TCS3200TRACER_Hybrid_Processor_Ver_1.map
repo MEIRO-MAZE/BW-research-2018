@@ -1,0 +1,50 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+TRACER_WHITEDATA                                                  0x0160       2
+Threshold_BW                                                      0x0162       2
+Threshold_BG                                                      0x0164       2
+TRACER_THRESHOLD                                                  0x0166       2
+COMMAND_FLAG_A                                                    0x0168       2
+COMMAND_FLAG_B                                                    0x016A       2
+START_BUTTON                                                      0x016C       2
+CMD_IDLE                                                          0x016E       2
+MOV_AVG                                                           0x0170      20
+TCS3200_COUNTER                                                   0x0184       2
+TCS3200_Pulse_R                                                   0x0186       2
+TCS3200_Pulse_G                                                   0x0188       2
+TCS3200_Pulse_B                                                   0x018A       2
+TCS3200_Pulse_W                                                   0x018C       2
+TCS3200_Pulse_Sum                                                 0x018E       2
+TCS3200_THRESHOLD                                                 0x0190       2
+TCS3200_TOTAL_SUM                                                 0x0192       2
+TCS3200_CMD                                                       0x0194      16
+Threshold_Diff                                                    0x01A4       2
+RAW_VAL_FLAG                                                      0x01A6       2
+MULTIPLY_COUNTER                                                  0x01A8       2
+TRACER                                                            0x01AA       6
+TRACER_STAT                                                       0x01B0       2
+TRACER_SECTION                                                    0x01B2       6
+rx_buffer                                                         0x01B8       8
+rx_wr_index                                                       0x01C0       1
+rx_rd_index                                                       0x01C1       1
+rx_counter                                                        0x01C2       1
+_seed                                                             0x01C3       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+EEPROM_A                                                          0x0000       2
+EEPROM_B                                                          0x0002       2
+EEPROM_C                                                          0x0004       2
+EEPROM_D                                                          0x0006       2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+DETECTED_COLOUR                                                   R4,R5        2
+Threshold_White                                                   R6,R7        2
+Threshold_Black                                                   R8,R9        2
+Threshold_Gray                                                    R10,R11      2
+TRACER_GRAYDATA                                                   R12,R13      2
+rx_buffer_overflow                                                R2.0      1bit

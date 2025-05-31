@@ -1,0 +1,22 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+distance                                                          0x0160      16
+ADC_Value                                                         0x0170       2
+SHARP_Vo                                                          0x0172       4
+SHARP_DIST                                                        0x0176      16
+SHARP_TEMP                                                        0x0186      10
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+COMMAND_FLAG_A                                                    R4,R5        2
+COMMAND_FLAG_B                                                    R6,R7        2
+flag                                                              R9           1
+schedule                                                          R8           1
+eksekusi                                                          R10,R11      2
+baud_mode                                                         R12,R13      2
